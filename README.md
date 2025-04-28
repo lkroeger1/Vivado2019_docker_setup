@@ -91,5 +91,4 @@ xhost -
   - `echo $DISPLAY` inside the container should output something like `:0`
   - `/tmp/.X11-unix` is correctly mounted into the container
   - GUI test programs like `xclock` or `zenity --info --text="Hello"` work inside the container
-  - `xhost +local:root` was run before starting the container
-- If you do not need GUI support (batch mode only), you can omit `-e DISPLAY`, `-v /tmp/.X11-unix:/tmp/.X11-unix`, and the `xhost` commands.
+  - `xhost +` was run before starting the container
