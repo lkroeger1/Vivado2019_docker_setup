@@ -25,7 +25,7 @@ Run the following command in the folder containing the `Dockerfile`:
 docker build -t ubuntu18-gcc7-vivado .
 ```
 
-This will create a Docker image called `ubuntu18-gcc7-vivado`.
+This will create a Docker image called `ubuntu18-gcc7-vivado` (will take 10 minutes).
 
 ## Starting the Docker Container
 
