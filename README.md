@@ -33,7 +33,7 @@ This will create a Docker image called `ubuntu18-gcc7-vivado`.
 Run the following command on the host system:
 
 ```bash
-xhost +local:root
+xhost +
 ```
 
 This allows Docker containers to connect to your X server.
@@ -81,7 +81,7 @@ You can now use Vivado HLS normally, including the GUI.
 For security, disable X11 access again after you exit the container:
 
 ```bash
-xhost -local:root
+xhost -
 ```
 
 ## Notes
