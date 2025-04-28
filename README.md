@@ -2,7 +2,7 @@
 
 This repository provides a setup to run Vivado HLS 2019.1 inside a Docker container.  
 It supports both command-line and GUI usage (with X11 forwarding).
-Since Vivado HLS 2019.1 relies on outdated libraries and system dependencies, setting up a Docker container was the only reliable way for me to get it working on Ubuntu 24.04, i believe it won't work on 20.04 upwards...
+Since Vivado HLS 2019.1 relies on outdated libraries and system dependencies, setting up a Docker container was the only reliable way for me to get it working on Ubuntu 24.04 (The problem is the C Simulation), i believe it wouldn't work on 20.04 upwards...
 
 ## Prerequisites
 
